@@ -16,12 +16,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Productboard information
-const PRODUCTBOARD_INTEGRATION_ID = "ea42fe53-11a5-4749-b24e-db1aebc1210f"; // Productboard plugin integration ID
+const PRODUCTBOARD_INTEGRATION_ID = "integration ID"; // Productboard plugin integration ID
 const PRODUCTBOARD_TOKEN =
   "Bearer token"
 //Asana information
 const ASANA_TOKEN = "Asana token";
-const ASANA_WORKSPACE_ID = "1960471366634";
+const ASANA_WORKSPACE_ID = "workspace ID";
 const client = asana.Client.create().useAccessToken(ASANA_TOKEN);
 
 const xslt = `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
